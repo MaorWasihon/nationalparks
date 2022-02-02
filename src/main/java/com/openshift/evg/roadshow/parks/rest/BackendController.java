@@ -18,6 +18,6 @@ public class BackendController{
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public Backend get() {
          System.out.println("[INFO] Maor Wasihon()");
-        return new Backend("nationalparkws","Maor Wasihon Park", new Coordinates("47.039304", "14.505178"), 4);
+        return new Backend("nationalpark---s","Maor Wasihon Park", new Coordinates("47.039304", "14.505178"), 4);
     }
 }
